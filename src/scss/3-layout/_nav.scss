@@ -1,0 +1,11 @@
+.nav {
+  width: 100vw;
+  height: 80px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: var(--content-columns);
+  align-content: center;
+  background: lightblue;
+  
+  * { grid-column: 2/3; }
+}
