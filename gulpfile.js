@@ -40,7 +40,7 @@ gulp.task('sass', () => {
     .pipe(autoprefixer({
       browsers: ['last 2 versions']    
     }))
-    .pipe(minifycss())
+    // .pipe(minifycss())
     .pipe(rename({
       basename: 'index',
       suffix: '.min'
